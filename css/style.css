@@ -1,0 +1,21 @@
+.content {
+  margin: 0 auto;
+  width: 960px;
+  padding-top: 50px;
+}
+
+h1.title {
+  font-family: 'Snippet', sans-serif;
+  font-size: 72px;
+  text-align: center;
+}
+h1.title span {
+  color: red;
+}
+
+.comingsoon {
+  text-align: center;
+  font-style: italic;
+  color: gray;
+  font-size: 20px;
+}
