@@ -4,7 +4,7 @@ title: iwanttolearnruby
 ---
 
 {% for post in site.posts %}
-  <div class='post'>
+  <div class='post {{ post.categories | join ' ' }}'>
 
     <a href="{{ post.link }}">
       {% if post.image %}
@@ -19,7 +19,13 @@ title: iwanttolearnruby
       <span class="link"><a href="{{ post.link }}">{{ post.link }}</a></span>
     </h3>
 
-    <p><em>{{ post.categories | join:', ' }}</em></p>
+    <p><em>{{ post.categories | sort | join:', ' }}</em></p>
     <p>{{ post.content }}</p>
   </div>
 {% endfor %}
+
+<script type="text/javascript">
+  $(function(){
+    $(".post").tsort();
+  });
+</script>
