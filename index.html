@@ -3,4 +3,23 @@ layout: default
 title: iwanttolearnruby
 ---
 
-<p class='comingsoon'>Coming soon!</p>
+{% for post in site.posts %}
+  <div class='post'>
+
+    <a href="{{ post.link }}">
+      {% if post.image %}
+        <img src="images/{{ post.image }}" />
+      {% else %}
+        <img src="images/default.png" />
+      {% endif %}
+    </a>
+
+    <h3>
+      <a href="{{ post.link }}">{{ post.title }}</a>
+      <span class="link"><a href="{{ post.link }}">{{ post.link }}</a></span>
+    </h3>
+
+    <p><em>{{ post.categories | join:', ' }}</em></p>
+    <p>{{ post.content }}</p>
+  </div>
+{% endfor %}
