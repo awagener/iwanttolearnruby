@@ -3,6 +3,14 @@ layout: default
 title: iwanttolearnruby
 ---
 
+<ul class='links'>
+  <li><a href="#all" id="post" class='current'>all</a></li>
+  {% for category in site.categories %}
+    <li><a href="#{{ category | first }}" id="{{ category | first }}">{{ category | first }}</a></li>
+  {% endfor %}
+</ul>
+
+<div class="posts">
 {% for post in site.posts %}
   <div class='post {{ post.categories | join ' ' }}'>
 
@@ -19,13 +27,26 @@ title: iwanttolearnruby
       <span class="link"><a href="{{ post.link }}">{{ post.link }}</a></span>
     </h3>
 
-    <p><em>{{ post.categories | sort | join:', ' }}</em></p>
+    <!-- p><em>{{ post.categories | sort | join:', ' }}</em></p -->
     <p>{{ post.content }}</p>
   </div>
 {% endfor %}
+</div>
 
 <script type="text/javascript">
   $(function(){
+    $(".links li").tsort();
     $(".post").tsort();
+
+    $(".links a").click(function(e){
+      $('.links a').removeClass('current');
+      filter_class = $(this).attr('id');
+      $(this).addClass('current');
+      $('.post').hide();
+      $("." + filter_class).show();
+      $('html, body').animate({scrollTop:0}, 'slow');
+      return false; // remove this later so people can actually link to sections
+    });
   });
+
 </script>
