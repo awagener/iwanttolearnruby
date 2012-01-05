@@ -27,8 +27,22 @@ title: iwanttolearnruby
       <span class="link"><a href="{{ post.link }}">{{ post.link }}</a></span>
     </h3>
 
-    <!-- p><em>{{ post.categories | sort | join:', ' }}</em></p -->
     <p>{{ post.content }}</p>
+
+    <ul>
+      {% for price in post.price %}
+        <li class='price'>{{ price }}</li>
+      {% endfor %}
+      {% for category in post.categories %}
+        <li class='category'>{{ category }}</li>
+      {% endfor %}
+      {% for level in post.level %}
+        <li class='level'>{{ level }}</li>
+      {% endfor %}
+      {% for instruction in post.instruction %}
+        <li class='instruction'>{{ instruction }}</li>
+      {% endfor %}
+    </ul>
   </div>
 {% endfor %}
 </div>

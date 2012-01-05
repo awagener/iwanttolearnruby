@@ -60,10 +60,11 @@ h3 a {
 }
 h3 .link a {
   color: gray;
+  font-size: 20px;
 }
-h3 + p {
+/*h3 + p {
   margin-top: 5px;
-}
+}*/
 .post img {
   float: left;
   margin-right: 10px;
@@ -73,10 +74,42 @@ h3 + p {
   clear: both;
   padding-bottom: 20px;
 }
+.post ul {
+  display: block;
+  margin: 10px 0;
+  padding: 0 0 12px;
+  height: 20px;
+  float: right;
+}
+.post li {
+  float: left;
+  list-style: none;
+  margin: 0 0 0 10px;
+  padding: 5px;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+
+  color: white;
+  text-transform: lowercase;
+}
+.post li.price {
+  background: #000099;
+}
+.post li.category {
+  background: #cc0000;
+}
+.post li.level {
+  background: #009933;
+}
+.post li.instruction {
+  background: #F2920C;
+}
 
 .footer {
   color: gray;
   clear: both;
   margin-top: 40px;
   border-top: 1px solid #999;
+  padding: 5px 0;
 }
