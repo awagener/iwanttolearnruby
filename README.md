@@ -18,9 +18,28 @@ What to Contribute
 
 Any resources you know that people can use to learn ruby (or rails, or anything else you think relevant).
 
-Resources I'm aware of that I haven't had a chance to add yet include:
+Resources I'm aware of that I haven't had a chance to evaluate and/or add yet include:
 
-* ...
+* http://ruby-kickstart.com/
+* http://mislav.uniqpath.com/poignant-guide/
+* http://teachmetocode.com/
+* http://rubylearning.com/
+* http://www.ruby-lang.org/en/documentation/quickstart/
+* http://pine.fm/LearnToProgram/
+* http://ruby.learncodethehardway.org/
+* http://www.sapphiresteel.com/The-Little-Book-Of-Ruby
+* http://www.udemy.com/learn-ruby-programming-in-ten-easy-steps
+* http://rubymentor.rubyforge.org/
+* http://blog.rubybestpractices.com/posts/gregory/022-rbp-now-open.html
+* http://www.humblelittlerubybook.com/
+* http://ruby5.envylabs.com/
+* http://ruby-challenge.rubylearning.org/
+* http://tutorials.jumpstartlab.com/
+* http://ruby4kids.com/ruby4kids
+* http://hackety.com/
+* http://mendicantuniversity.org/
+* http://railsbridge.org/
+* http://rubyrogues.com/
 
 Improvements to the code or the site are also appreciated. Some ideas:
 
