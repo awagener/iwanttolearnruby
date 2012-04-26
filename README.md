@@ -1,5 +1,4 @@
 I want to learn ruby
-====================
 
 A community driven list of resources for people to learn ruby, whether they're ruby newbies or advanced users.
 
@@ -55,3 +54,5 @@ Disclaimer
 Tragically, I haven't had time (or money) to try all of these resources - I'm relying on impressions and descriptions for some of them.  If you feel the level is inaccurate, or the description is misleading, or you just don't like it - feel free to change it and send me a pull request!  I'd greatly appreciate it.
 
 Many of the descriptions are taken directly from the resource's site, I mean no copyright infringement by this.
+
+This site is hosted on github pages, so please see http://github.com/awagener/iwanttolearnruby/tree/gh-pages.
