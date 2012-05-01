@@ -26,7 +26,6 @@ Resources I'm aware of that I haven't had a chance to evaluate and/or add yet in
 * http://rubylearning.com/
 * http://www.ruby-lang.org/en/documentation/quickstart/
 * http://pine.fm/LearnToProgram/
-* http://ruby.learncodethehardway.org/
 * http://www.sapphiresteel.com/The-Little-Book-Of-Ruby
 * http://www.udemy.com/learn-ruby-programming-in-ten-easy-steps
 * http://rubymentor.rubyforge.org/
@@ -39,9 +38,7 @@ Resources I'm aware of that I haven't had a chance to evaluate and/or add yet in
 * http://hackety.com/
 * http://mendicantuniversity.org/
 * http://railsbridge.org/
-* http://rubyrogues.com/
 * http://ruby.railstutorial.org/ruby-on-rails-tutorial-book
-* http://guides.rubyonrails.org/getting_started.html
 * http://codebrawl.com/
 * https://github.com/ryanb/ruby-warrior
 
