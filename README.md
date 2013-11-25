@@ -37,7 +37,6 @@ Resources I'm aware of that I haven't had a chance to evaluate and/or add yet in
 * http://ruby4kids.com/ruby4kids
 * http://hackety.com/
 * http://mendicantuniversity.org/
-* http://railsbridge.org/
 * http://ruby.railstutorial.org/ruby-on-rails-tutorial-book
 * http://codebrawl.com/
 * https://github.com/ryanb/ruby-warrior
