@@ -16,7 +16,11 @@ title: iwanttolearnruby
 
     <a href="{{ post.link }}">
       {% if post.image %}
-        <img src="images/{{ post.image }}" width="300" height="180" />
+        {% if post.image contains 'http://' or post.image contains 'https://' %}
+          <img src="{{ post.image }}" width="300" height="180" />
+        {% else %}
+          <img src="images/{{ post.image }}" width="300" height="180" />
+        {% end %}
       {% else %}
         <img src="images/default.png" width="300" height="180" />
       {% endif %}
